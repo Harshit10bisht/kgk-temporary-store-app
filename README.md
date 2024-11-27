@@ -122,6 +122,14 @@ Just import the postman collection URL :
 E.g. Uploading resource
 ![image](https://github.com/user-attachments/assets/2473ec8b-c823-4f15-b4bb-369b058a8a99)
 
+MySQL :
+![image](https://github.com/user-attachments/assets/048d59a2-98dd-496c-b13e-d73ee8e3c5c1)
+
+AWS S3 Storage :
+![image](https://github.com/user-attachments/assets/56b7ec98-4cc2-47c6-8e7c-0fe6a0d2fb30)
+
+
+
 
 
 
