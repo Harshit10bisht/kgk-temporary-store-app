@@ -1,6 +1,9 @@
 # Temporary Resource Sharing App
 A comprehensive Temporary Resource Sharing App built with Node.js, Express, MySQL, and AWS. This application allows you to share the resource (e.g. picture, document, etc.) with an expire validity after which it will not be accessible apart from admin.
 
+# Simple working
+Signup and login to a user, and using JWT Bearer token, Create resource (Uploads resource to S3, generates resigned URL, and store that record in MySQL with given expirationTime in params). Now Users can access that resource till our scheduled cron job updates the resources as active/expired as per their expiry time. 
+
 ## Table of Contents
 
 - [Temporary Resource Sharing App](#temporary-resource-sharing-app)
