@@ -22,7 +22,7 @@ A comprehensive Temporary Resource Sharing App built with Node.js, Express, MySQ
 - **Resource Management:** Manage resource as per user, and its status as active or expired.
 - **Cron Job Scheduler:** Runs a script that updates status of all the resources as active/expired. 
 - **AWS Cloud Storage:** Stored resources in cloud AWS S3.
-- **Database Design:** Modular schema using MongoDB collections for `Users`, and `Resources`
+- **Database Design:** Modular schema using MySQL collections for `Users`, and `Resources`
 - **Error Handling:** Comprehensive error responses with structured messages and appropriate HTTP status codes.
 - **Scalability and Extensibility:** Modular codebase for easy feature extension and maintenance.
 
@@ -77,7 +77,7 @@ Before you begin, ensure you have met the following requirements:
           AWS_S3_BUCKET='temporary-store-app'
         ```
 4. **Start MySQL server**
-     Ensure MySQL is running. As we will be using transactions in future, we need a MongoDB replica set. You have two options:
+     Ensure MySQL is running. As we will be using transactions in future, we need a MySQL replica set. You have two options:
      
      a. Run a local MySQL instance in MySQL Workbench
      b. Use a MySQL cloud connection string (recommended for simplicity) (e.g. aiven)
