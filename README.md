@@ -112,8 +112,17 @@ This project implements a temporary resource sharing system, covering essential 
 
 Postman Collections :
 
-Just import the postman collection URL sent via email into the Postman app to get started.
-(For external users, if needed please contact to your_email@example.com for collections).
+Just import the postman collection URL :
+"https://api.postman.com/collections/9977759-ccc4aac6-465b-493f-b9aa-a6dc5453ab21?access_key=PMAT-01JDQARKV1W608JWFD00A34ZSP"
+
+(For external users, if needed please contact to harshitbisht1210@gmail.com for collections).
+
+![image](https://github.com/user-attachments/assets/6fb5bf0a-f9fe-4af4-b5f3-e47ac11f0761)
+
+E.g. Uploading resource
+![image](https://github.com/user-attachments/assets/6863b6ba-caf0-4dc2-8006-f6a70399a3fb)
+
+
 
 Simple Workflow Test :
 a. Login as Admin :
