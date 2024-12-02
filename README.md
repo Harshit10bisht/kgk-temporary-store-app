@@ -69,15 +69,15 @@ Before you begin, ensure you have met the following requirements:
           PORT=3000
           JWT_SECRET='i_am_here'
 
-          DB_NAME='storeapp'
-          DB_USER='avnadmin'
-          DB_HOST='mysql-aiven-harshit-harshitbisht1210dev.b.aivencloud.com'
-          DB_PASSWORD='AVNS_C6iYvpZ6al2SC3j1Wud'
+          DB_NAME='type db name here'
+          DB_USER='type db user name here'
+          DB_HOST='type db host name here'
+          DB_PASSWORD='type db password here'
 
-          AWS_ACCESS_KEY='AKIAS74TLWBMCVYG67EI'
-          AWS_SECRET_ACCESS_KEY='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'
-          AWS_REGION='us-east-1'
-          AWS_S3_BUCKET='temporary-store-app'
+          AWS_ACCESS_KEY='type aws access key here'
+          AWS_SECRET_ACCESS_KEY='type aws secret access key here'
+          AWS_REGION='type aws region here'
+          AWS_S3_BUCKET='type aws bucket here'
         ```
 4. **Start MySQL server**
      Ensure MySQL is running. As we will be using transactions in future, we need a MySQL replica set. You have two options:
